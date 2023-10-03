@@ -2,37 +2,122 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: #0a0a0a;
     display: flex;
     justify-content: center;
 }
-
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.47);
+    border-top: #903e3e;
+    list-style-type: none;
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
+    text-decoration: dotted;
+    border-style: groove;
+    border-left: none;
+    font-size: 20px; 
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color:  rgba(244, 137, 137, 0.304);
     padding: 10px 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    border-style: groove; 
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: rgba(244, 137, 137, 0.304);
     min-height: 150px;
+    text-align: center;
 }
 .content {
-    background-color: white;
+    background-color: rgb(116, 110, 110);
     min-height: 300px;
-    padding: 20px;
+    padding: 25px;
+    min-width: 768px;
+    max-width: 1024px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgba(255, 255, 255, 0.47);
+    min-height: 100px;
+}
+.footer img{
+width: 30px;
+width: 30px;
+padding-right: 10px;
+padding-bottom: 20px;
+padding-left: 10%;
+}
+.content {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: -1em;
+    overflow-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.p {
+    margin: 0 0 15px;
+    overflow-wrap: break-word;
+}
+.W3-btn,.M3-button {
+    border:#0a0a0a;
+    display: inline-block;
+    padding: 10px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-decoration-style:unset;
+    border-color: aliceblue;
+    font-size: 20px;
+}
+
+body {
+    background-color: lightgrey;
+    color: rgb(25, 25, 26);
+    background-image: url(imgmenu.png);
+}
+h1 {
+    background-color: rgb(230, 221, 221);
+    color: rgb(241, 225, 225);
+}
+  .content {
+    background-color: rgba(244, 137, 137, 0.304);
+    color: rgb(8, 8, 8);
+}
+.content {
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+footer {
+	background-color: rgba(244, 137, 137, 0.686);
+	color: rgb(8, 8, 8);
+	padding: 20px;
+	text-align: center;
+    margin-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+.art{
+   border-style:solid;
+   border-width: 10px;
+   border-color: rgba(255, 255, 255, 0.47);
+}
+table, th, td {
+    border: 1px solid rgb(6, 6, 6);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 180px;
+    margin-bottom: 25px;
+}
+th, td {
+    background-color: rgba(255, 255, 255, 0.47;
+    text-align: center;
 }
